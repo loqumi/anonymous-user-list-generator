@@ -8,7 +8,7 @@ const Userlist = () => {
   const [count, setCount] = React.useState(0);
   const [length, setLength] = React.useState(20);
   const [errorCount, setErrorCount] = React.useState(0);
-  const [seed, setSeed] = React.useState(Math.floor(Math.random() * 10000000));
+  const [seed, setSeed] = React.useState(0);
 
   const url = React.useMemo(
     () =>
